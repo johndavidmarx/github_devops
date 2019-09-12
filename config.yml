@@ -19,6 +19,8 @@ steps:
       - type: createIssue
         title: Step 2!
         body: step2.md
+      - type: respond
+        with: response1.md
   - title: Second step
     description: The 2nd step in your course
     event: issues.closed
@@ -28,6 +30,8 @@ steps:
       - type: createIssue
         title: Step 3!
         body: step3.md
+      - type: respond
+        with: response2.md
   - title: Third step
     description: The 3rd step in your course
     event: issues.closed
