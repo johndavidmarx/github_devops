@@ -25,3 +25,12 @@ steps:
     link: '{{ repoUrl }}/issues/2'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Step 3!
+        body: step3.md
+  - title: Third step
+    description: The 3rd step in your course
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/3'
+    actions:
+      - type: closeIssue
