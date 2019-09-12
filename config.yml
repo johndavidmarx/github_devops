@@ -1,0 +1,17 @@
+title: GitHub_DevOps
+tagline: A brand new course on Learning Lab
+description: This is an introction to GitHub DevOps
+template:
+  repo: github_devops-template
+  name: github_devops
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
