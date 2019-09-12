@@ -11,7 +11,7 @@ before:
 steps:
   - title: First step
     description: The first step in your course
-    
+    video: https://youtube.com/embed/w3jLJU7DT5E
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
