@@ -3,7 +3,7 @@ tagline: A brand new course on Learning Lab
 description: This is an introction to GitHub DevOps
 template:
   repo: github_devops-template
-  name: github_devops
+  name: github_devops-created
 before:
   - type: createIssue
     title: Welcome!
